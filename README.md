@@ -21,7 +21,7 @@ I already submit a radar FB13196663 to UIKit team, but seems iOS 17.2 still cont
 1. Just download my “iOS17IndexedPNGDecodeBug.zip” in attachment, which provide a one pixel PNG image
 2. Open “iOS17IndexedPNGDecodeBug.xcodeproj”
 3. Run with destination on iOS 16 device or simulator, no assertion failed. The pixel value (50, 50, 50, 50)
-4. Run with destination on iOS 16 device or simulator, hit assertion, because the pixel value (10, 10, 10, 50), which looks like the premultiplied result 
+4. Run with destination on iOS 17 device or simulator, hit assertion, because the pixel value (10, 10, 10, 50), which looks like the premultiplied result 
 
 ### Excepted behavior
 Both iOS 17 and iOS 16 decode result for that indexed color PNG should match. Well ImageIO team can use premultiplied RGBA, but please, you at least should create `CGImage` with the correct CGImageAlphaInfo.
