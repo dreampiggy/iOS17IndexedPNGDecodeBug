@@ -12,7 +12,7 @@ iOS 17 Indexed PNG decode wrong which report alpha info to non-premultiplied RGB
 
 From iOS 17/macOS 14, there is one serious problem on ImageIO PNG plugin. The decode result for indexed color PNG use the wrong CGImageAlphaInfo
 
-The returned CGImageAlphaInfo is alpha last, but the actual bitmap data is premultiplied alpha first, which cause many runtime render bug.
+The returned CGImageAlphaInfo is alpha last, but the actual bitmap data is premultiplied alpha last, which cause many runtime render bug.
 
 I already submit a radar FB13196663 to UIKit team, but seems iOS 17.2 still contains this issue. After digging into details, I think this radar should reported to ImageIO team.
 
