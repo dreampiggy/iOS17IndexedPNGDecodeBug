@@ -14,6 +14,7 @@
 		328C27922AF257B200052A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328C27912AF257B200052A44 /* Assets.xcassets */; };
 		328C27952AF257B200052A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328C27932AF257B200052A44 /* LaunchScreen.storyboard */; };
 		328C279D2AF2582100052A44 /* IndexedOnePixelImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 328C279C2AF2582100052A44 /* IndexedOnePixelImage.png */; };
+		884C3FC92B35216500EBF9FC /* bg_three_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 884C3FC82B35216500EBF9FC /* bg_three_ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		328C27942AF257B200052A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328C27962AF257B200052A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328C279C2AF2582100052A44 /* IndexedOnePixelImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IndexedOnePixelImage.png; sourceTree = SOURCE_ROOT; };
+		884C3FC82B35216500EBF9FC /* bg_three_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_three_ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				328C27882AF257B100052A44 /* AppDelegate.swift */,
 				328C278A2AF257B100052A44 /* SceneDelegate.swift */,
 				328C278C2AF257B100052A44 /* ViewController.swift */,
+				884C3FC82B35216500EBF9FC /* bg_three_ball.png */,
 				328C279C2AF2582100052A44 /* IndexedOnePixelImage.png */,
 				328C278E2AF257B100052A44 /* Main.storyboard */,
 				328C27912AF257B200052A44 /* Assets.xcassets */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				328C27952AF257B200052A44 /* LaunchScreen.storyboard in Resources */,
+				884C3FC92B35216500EBF9FC /* bg_three_ball.png in Resources */,
 				328C27922AF257B200052A44 /* Assets.xcassets in Resources */,
 				328C27902AF257B100052A44 /* Main.storyboard in Resources */,
 				328C279D2AF2582100052A44 /* IndexedOnePixelImage.png in Resources */,
